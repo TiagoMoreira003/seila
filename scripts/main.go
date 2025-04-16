@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"os"
-	"os/exec"
+	"seila/cmd"
 )
 
 func main() {
+	cmd.Execute()
 }
